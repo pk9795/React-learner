@@ -1,0 +1,560 @@
+
+
+.App {
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+  font-family: 'Roboto', sans-serif;
+
+
+}
+p{
+  color: #888;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'open-sans', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 25px 0 25px 50px;
+}
+header.header-wrapper{
+ border-bottom: 1px solid #cecece;
+
+}
+.navbar-nav .nav-item a{
+  font-size: 15px;
+  font-weight: bold;
+  color:#000;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item a:hover,.navbar-nav .nav-item a:focus{
+  background-color: gold;
+  color: #000;
+
+}
+
+
+/*banner background css*/
+
+.bg-wrapper{
+  background:url('images/header-banner.png')no-repeat center;
+  height: 450px;
+  background-size: cover;
+}
+
+
+/*services component css*/
+.services button{
+  background-color: #fff;
+  padding:10px 20px;
+  border:1px solid #000;
+  color:#000;
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 25px;
+}
+
+.services button:hover{
+  background-color: #000;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: ease-in-out .3s;
+  border-radius: 25px;
+}
+
+.services h1{
+ letter-spacing: 2px;
+}
+/*footer css start*/
+.footer-wrapper{
+  background-color: #010101;
+  color: #fff;
+}
+.footer-wrapper h4{
+  color: #fff;
+  font-size: 20px;
+}
+.copyright-wrapper{
+  background-color: #222;
+  display: block;
+  font-size: 15px;
+}
+.text{
+  color: #888;
+
+}
+.links a{
+  color: #888;
+  font-size: 14px;
+}
+.links a:hover{
+  text-decoration: none;
+}
+
+.footer-wrapper button{
+  background-color: #000;
+  padding:10px 20px;
+  border:1px solid #0fbcf9;
+  color:#0fbcf9;
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 25px;
+}
+.footer-wrapper button:hover{
+  background-color: #0fbcf9;
+  border: 1px solid #0fbcf9;
+
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: ease-in-out .3s;
+  border-radius: 25px;
+}
+.links li{
+  margin-bottom: 10px;
+}
+.social i{
+  margin-right: 30px;
+  color: #fff;
+  cursor: pointer;
+
+}
+.contact-detail i{
+  margin-right: 10px;
+  color: #fff;
+
+}
+
+/*Contact-us Component Css style*/
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-family:'Roboto', sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.contact-wrapper {
+
+  padding-top: 35px;
+
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: #000000;
+}
+
+/* Begin Left Contact Page */
+.form-horizontal {
+
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.form-control, textarea {
+
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 20px 10px;
+  font-size: 14px;
+  line-height: 0.5;
+  color: #cecece;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.button {
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+.btn-primary{
+  background-color: #000;
+  color: #fff;
+  border:none;
+}
+.btn-primary:hover{
+  background-color: #0fbcf9;
+  color:#000;
+}
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 300 14px 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.fa-paper-plane:before{
+  color: #fff;
+}
+.contact-list .fa-2x{
+  font-size: 1.5em!important;
+}
+.social-media-list li i{
+  color: #fff;
+
+}
+
+.button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 6;
+  color: #000;
+}
+
+.contact-text {
+  font: 300 18px 'Roboto', sans-serif;
+  letter-spacing: 1.9px;
+  color: #000;
+}
+
+.place {
+  margin-left: 25px;
+}
+
+.phone {
+  margin-left: 25px;
+}
+
+.gmail {
+  margin-left: 25px;
+}
+
+.contact-text a {
+  color: #000;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color:#0fbcf9;
+  text-decoration: none;
+}
+
+.direct-contact-container .contact-list .list-item{
+  font-size: 11px;
+
+}
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 1rem;
+  
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  top: 0;
+  left: -20px;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  line-height: 50px;
+  border-radius: 50%;
+  color: #000;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+  text-align: center;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color:#0fbcf9; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #111;
+}
+
+.copyright {
+  font: 200 14px 'Roboto', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255,255,255,.8); ;
+}
+
+
+
+
+/*padding common css styles*/
+.padd{
+  padding:35px;
+}
+.padd-t-15{
+  padding-top: 15px;
+}
+.padd-b-15{
+  padding-bottom: 15px;
+}
+.padd-t-50{
+  padding-top: 50px;
+}
+.padd-b-50{
+  padding-bottom: 50px;
+}
+.padd-t-75{
+  padding-top: 75px;
+}
+.padd-b-75{
+  padding-bottom: 75px;
+}
+
+
+
+
+/*hamberger menu css */
+
+body
+{
+  margin: 0;
+  padding: 0;  
+  /* make it look decent enough */ 
+  overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+}
+
+a
+{
+  text-decoration: none;
+  color: #f7f7f7;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: #0fbcf9;
+  text-decoration: none;
+}
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+ #menuToggle span
+ {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #000000;
+  border-radius: 50px;
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+ #menuToggle input:checked ~ span
+ {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background:#f7f7f7;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+ #menuToggle input:checked ~ span:nth-last-child(3)
+ {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+ #menuToggle input:checked ~ span:nth-last-child(2)
+ {
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+ #menu
+ {
+  position: absolute;
+  width: 380px;
+  height: 100vh;
+  margin: -71px 0 0 0;
+  padding: 50px;
+  padding-top: 125px;
+  right: -100px;
+  
+  background: #000;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 2rem;
+}
+
+/*
+ * And let's fade it in from the left
+ */
+ #menuToggle input:checked ~ ul
+ {
+  transform: scale(1.0, 1.0);
+  opacity: 1;
+}
+
+
+/*margin common css styles*/
+
+.mar-t-15{
+  margin-top: 15px;
+}
+.mar-b-25{
+  margin-bottom: 25px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
